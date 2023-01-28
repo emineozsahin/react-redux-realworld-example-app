@@ -11,10 +11,13 @@ pool:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: 'eminecontaineregistry'
+    containerRegistry: 'acr'
     repository: 'react-redux'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    
+
+
 
 
 
