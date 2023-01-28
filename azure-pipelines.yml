@@ -18,6 +18,8 @@ stages:
     repository: 'react-redux'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+
+
     
 # - stage: Build
 #   displayName: Build image
